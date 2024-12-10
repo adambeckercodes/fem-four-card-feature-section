@@ -43,6 +43,10 @@ ul {
   list-style-type: none;
 }
 
+.visually-hidden {
+  display: none;
+}
+
 .container {
   min-width: 375px;
   margin: 0 auto;

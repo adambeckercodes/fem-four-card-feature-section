@@ -17,16 +17,18 @@
     <div class="container">
       <div class="page__descr">
         <h1 class="page__title">
-          <span>Reliable,&nbsp;efficient&nbsp;delivery</span><span class="page__title-bold">Powered&nbsp;by&nbsp;Technology</span>
+          <span>Reliable,&nbsp;efficient&nbsp;delivery</span><span
+            class="page__title-bold">Powered&nbsp;by&nbsp;Technology</span>
         </h1>
         <p class="page__descr-text">
           Our Artificial Intelligence powered tools use millions of project data points
           to ensure that your project is successful
         </p>
       </div>
-      <div class="cards">
+      <section class="cards" aria-labelledby="cards-title">
+        <h2 id="cards-title" class="visually-hidden">Features</h2>
         <ul class="cards__list">
-          <li class="cards__item">
+          <li class="cards__item" aria-label="Supervisor: Monitors activity to identify project roadblocks">
             <h2 class="card__title">
               Supervisor
             </h2>
@@ -34,7 +36,8 @@
               Monitors activity to identify project roadblocks
             </p>
           </li>
-          <li class="cards__item">
+          <li class="cards__item"
+            aria-label="Team Builder: Scans our talent network to create the optimal team for your project">
             <h2 class="card__title">
               Team Builder
             </h2>
@@ -42,7 +45,7 @@
               Scans our talent network to create the optimal team for your project
             </p>
           </li>
-          <li class="cards__item">
+          <li class="cards__item" aria-label="Karma: Regularly evaluates our talent to ensure quality">
             <h2 class="card__title">
               Karma
             </h2>
@@ -50,7 +53,7 @@
               Regularly evaluates our talent to ensure quality
             </p>
           </li>
-          <li class="cards__item">
+          <li class="cards__item" aria-label="Calculator: Uses data from past projects to provide better delivery estimates">
             <h2 class="card__title">
               Calculator
             </h2>
@@ -59,11 +62,11 @@
             </p>
           </li>
         </ul>
-      </div>
+      </section>
     </div>
   </main>
 
-  <footer>
+  <footer role="contentinfo">
     <p class="attribution">
       Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
       <br>
